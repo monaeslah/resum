@@ -1,0 +1,56 @@
+$color-Navbar: #ee1d46;
+$color-Text-Navbar:hsl(332, 100%, 88%);
+$background-color-active:#ffffff;
+$color-text-active:#eb3a6e;
+// @mixin font-face($style-name, $file, $family, $category:"") {
+//     $filepath: + $family + "/" + $file;
+//     @font-face {
+//         font-family: "#{$style-name}";
+//         src: url($filepath + ".eot");
+//         src: url($filepath + ".eot?#iefix") format('embedded-opentype'), url($filepath + ".woff") format('woff'), url($filepath + ".ttf")  format('truetype'), url($filepath + ".svg#" + $style-name + "") format('svg');
+//     }
+// }
+// @include font-face('MyriadPro', 'MyriadPro', 'MyriadPro', 'Regular');
+// @font-face {
+//     font-family: "MyriadPro";
+//     src: url("MyriadPro/MyriadPro.ttf");
+//     src:  url("MyriadPro/MyriadPro.ttf") format("truetype");
+//   }
+#Navbar {
+background-color: $color-Navbar;
+padding:0px;
+margin-bottom: 1130px;
+.nav-link {
+    color:$color-Text-Navbar;
+    font-family: "MyriadPro";
+    font-size:12pt;
+     border-left: 1px solid $color-Text-Navbar;
+     padding:8px 40px;
+     margin:10px;
+    
+}
+ .active{
+  background-color:$background-color-active;
+   color:$color-text-active;
+  margin:0px;
+  text-align: center;
+  padding:20px 50px;
+  #fontAwesome{
+    padding:0px;
+    margin-left: 10px;
+    border:1px solid $color-text-active;
+    border-radius: 50%;
+    color:white;
+    background-color:$background-color-active;
+  }
+}
+
+}
+#fontAwesome{
+    padding:0px;
+    margin-left: 10px;
+    border:1px solid white;
+    border-radius: 50%;
+    color:$color-Navbar;
+    background-color: white;
+}

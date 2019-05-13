@@ -1,0 +1,48 @@
+$color-Navbar: #ee1d46;
+$color-Text-Navbar:hsl(332, 100%, 88%);
+$background-color-active:#ffffff;
+$color-text-active:#eb3a6e;
+#Navbar {
+    background-color: $color-Navbar;
+    padding:0px;
+    // margin-bottom: 1130px;
+    width: 100%;
+direction: rtl;
+// float: right;
+background-color:$color-Navbar;
+
+.nav-link {
+    color:$color-Text-Navbar;
+    font-family: "MyriadPro";
+    font-size:12pt;
+     border-left: 1px solid $color-Text-Navbar;
+     padding:2pt 40px;
+     margin:10px 10px 10px -7px;
+    
+}
+.active{
+    background-color:$background-color-active;
+     color:$color-text-active;
+    margin:0px;
+    text-align: center;
+    padding:20px 50px;
+    border:1px solid $color-text-active;
+    #fontAwesome{
+      padding:0px;
+      margin-left: 10px;
+      border:1px solid $color-text-active;
+      border-radius: 50%;
+      color:white;
+      background-color:$background-color-active;
+    }
+  }
+ 
+}
+#fontAwesome{
+    padding:0px;
+    margin-left: 10px;
+    border:1px solid white;
+    border-radius: 50%;
+    color:$color-Navbar;
+    background-color: white;
+}
